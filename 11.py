@@ -7,4 +7,4 @@ def fibu(n):
         a.append(x)
         i+=1
     return a
-print(fibu(10))
+print(fibu(20))
