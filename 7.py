@@ -9,6 +9,7 @@ for i in range(len(a)):
         j-=1
     a.insert(x,a[i])
     del a[i+1]
-    print(a,x,i)
+    #print(a,x,i)
     i+=1
+print(a)
 
