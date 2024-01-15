@@ -1,7 +1,6 @@
-x=int(input(": "))
-y=int(input(": "))
-i=1
-s=x
-for i in range(y-1):
-    s*=x
-print(s)
+def tavan(x,y):
+    if y==0:
+        return 1 
+    else:
+        return x*tavan(x,y-1)
+print(tavan(2,4))
