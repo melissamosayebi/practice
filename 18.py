@@ -1,8 +1,8 @@
 i=1
-j=9
+j=34
 for i in range(9):
-    print(i*"#",end="")
-    for j in range(9):
-        print(j*" ",i*"#")
-        j-=1
-    i+=1
+    print(i*"🟫",end="")
+    print(j*" ",end="")
+    j-=4
+    print(i*"🟫")
+#j=i*4+2
